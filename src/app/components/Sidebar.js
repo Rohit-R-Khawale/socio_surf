@@ -5,7 +5,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 const Sidebar = () => {
   return (
-    <main className='flex flex-col gap-4 bg-gray-700 p-3'>
+    <main className='flex flex-col gap-4 p-3'>
         {/* App icon */}
       <Link href="/" className='flex gap-2 justify-around'>
           <Image src={Icon} alt="Icon" className='w-16 cursor-pointer p-3 hover:bg-gray-400 rounded-full transition-all duration-300' />
