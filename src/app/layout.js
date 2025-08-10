@@ -26,7 +26,7 @@ export default function RootLayout({ children }) {
       >
         <div className="flex justify-between max-w-6xl mx-auto">
           {/* Sidebar */}
-          <div className="">
+          <div className="hidden sm:inline h-screen border-r border-gray-500">
             <Sidebar />
           </div>
 
