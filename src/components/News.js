@@ -35,7 +35,6 @@ const News = () => {
                         <h3 className="text-sm font-semibold text-gray-700">{article.title}</h3>
                         <p className="text-xs text-gray-500 font-medium">{article.source.name}</p>
                     </div>
-
                     <img src={article.urlToImage} className="w-16 h-16 object-cover rounded-md" />
                 </a>
             ))
