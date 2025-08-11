@@ -33,7 +33,10 @@ export default function RootLayout({ children }) {
           {children}
 
           {/* News */}
-          <div className="">
+          <div className="p-4 h-screen hidden sm:inline lg:flex-col border-l border-gray-500 w-[24rem]">
+            <div className="sticky top-0 bg-white py-2">
+              <input type="text" placeholder="Search" autoComplete="off" className="bg-gray-100 border-gray-200 rounded-3xl w-full px-4  py-2 "  />
+            </div>
             <News/>
           </div>
         </div>
