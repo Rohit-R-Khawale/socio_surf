@@ -24,18 +24,18 @@ export default function RootLayout({ children }) {
     <html lang="en">
         <SessionWrapper>
         <body
-          className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+          className={`${geistSans.variable} ${geistMono.variable} antialiased `}
         >
-          <div className="flex justify-between max-w-6xl mx-auto">
+          <div className="flex lg:justify-between gap-2 max-w-6xl mx-auto ">
             {/* Sidebar */}
-            <div className="hidden sm:inline h-screen border-r border-gray-500">
+            <div className="hidden sm:inline h-screen ">
               <Sidebar />
             </div>
 
-            {children}
+            <div className="w-2xl flex-1 ">{children}</div>
 
             {/* News */}
-            <div className="p-4 h-screen hidden lg:inline lg:flex-col border-l border-gray-500 w-[24rem]">
+            <div className="p-4 h-screen hidden lg:inline lg:flex-col w-[24rem]">
               <div className="sticky top-0 bg-white py-2">
                 <input
                   type="text"
