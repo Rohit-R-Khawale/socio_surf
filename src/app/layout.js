@@ -35,7 +35,7 @@ export default function RootLayout({ children }) {
             {children}
 
             {/* News */}
-            <div className="p-4 h-screen hidden sm:inline lg:flex-col border-l border-gray-500 w-[24rem]">
+            <div className="p-4 h-screen hidden lg:inline lg:flex-col border-l border-gray-500 w-[24rem]">
               <div className="sticky top-0 bg-white py-2">
                 <input
                   type="text"
